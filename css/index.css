@@ -122,11 +122,13 @@ q:after {
   content: '';
   content: none;
 }
+* {
+  background-image: url(img\946644668.jpg);
+}
 
 body {
- 
-  background-color: silver;
-
+  background-image: url(img\web-development-1200x682.jpg);
+  background-color:black
 }
 header {
   background-color:rgb(2, 156, 105);
@@ -145,7 +147,8 @@ footer p {
   display: flex;
   align-items: center;
   width: 100%;
-  color:rgb(2, 121, 121);
+  color: orange;
+
 }
 
 html {
@@ -204,7 +207,7 @@ p {
 .navbar .nav a {
   text-decoration: none;
   font-size: 1.8rem;
-  color: #454A59;
+  color: orange
 }
 .intro button {
   display: flex;
@@ -220,6 +223,16 @@ p {
   color: black;
   font-size: xx-large;
   color: #23293B;
+}
+.intro button:hover {
+  color: chartreuse;
+  background-color: chocolate;
+}
+footer:hover {
+  background-color: violet;
+}
+footer p:hover {
+  color: yellow;
 }
 .first-paragraph p {
   color: silver;
