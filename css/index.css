@@ -480,7 +480,7 @@ second page
   text-decoration-style: double;
 }
 
-.container h1 {
+.container h4 {
   color: rgb(40, 231, 23);
   padding-right: 3rem;
   
@@ -539,6 +539,11 @@ features page*/
   margin-left: 42%;
   padding: 2px;
   margin-right: 3%;
+}
+
+.container {
+
+
 }
 
 
@@ -650,6 +655,12 @@ first page
     text-anchor: middle;
   }
 
+  .bg-img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+
+  }
 
 
 
