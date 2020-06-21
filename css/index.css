@@ -539,12 +539,44 @@ features page*/
   margin-left: 42%;
   padding: 2px;
   margin-right: 3%;
+  color: black;
+  padding-bottom: 0%;
+  background-color: yellow;
+  padding-top: 0%;
+  
+
 }
 
-.container {
+.container label {
+  color: transparent;
+}
 
+.container h4 {
+  color: #221d05;
+  font-size: x-large;
+}
+.container input {
+  color: red;
+  font-size: larger;
+  font-weight: bold;
+  background-color: yellow;
 
 }
+.images div {
+  color: black;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+/* .container button {
+  color: red;
+  background-color: rgb(20, 20, 20);
+  font-size: larger;
+  font-weight: bold;
+  
+} */
+
+
 
 
 
@@ -586,11 +618,11 @@ first page
   }
   .images img {
     display: flex;
-    margin: 1%;
+    /* margin: 6%; */
     width: 9%;
     background-color: yellow;
     color: rgb(250, 23, 23);
-    height: 115px;
+    height: 80px;
   }
   .images {
     color:black;
@@ -629,7 +661,7 @@ first page
 
   body {
     
-    background-color: rgb(226, 238, 238);
+    background-color: cornsilk
   }
  .navbar nav  a {
    color:rgb(204, 17, 17);
@@ -648,12 +680,20 @@ first page
     background-color: lime;
     
   }
-  .extra button {
+  /* .extra button {
     color: black;
-    padding-bottom: 7.5%;
+    padding-bottom: 8%;
     background-color: yellow;
-    text-anchor: middle;
+    
+  } */
+  .features-h1 h1 {
+    background-color:black;
   }
+
+  /* .home-button {
+    background-color:black;
+    
+  } */
 
   .bg-img {
     display: flex;
@@ -685,6 +725,11 @@ first page
     width: 60%;
     padding-left: 16rem;
 
+  }
+  .container h4 {
+    color: rgb(13, 45, 66);
+    font-size: x-large;
+    font-weight: bolder;
   }
   
 
