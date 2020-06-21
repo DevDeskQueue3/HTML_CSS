@@ -643,6 +643,14 @@ first page
     background-color: lime;
     
   }
+  .extra button {
+    color: black;
+    padding-bottom: 7.5%;
+    background-color: yellow;
+    text-anchor: middle;
+  }
+
+
 
 
 }
