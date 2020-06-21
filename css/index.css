@@ -660,7 +660,33 @@ first page
     justify-content: center;
     width: 50%;
 
+  }.bg-img {
+    width: 100%;
   }
+  .bm-img h4 {
+    /*font-size: xxx-large;*/
+  }
+  .container input {
+    width: 20%;
+    background-color: rgb(45, 32, 165);
+    display: flex;
+    flex-direction: column;
+  }
+  .container label {
+    color: transparent;
+  }
+  .login-header {
+    background-color: black;
+  }
+  .login-header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding-left: 16rem;
+
+  }
+  
 
 
 
