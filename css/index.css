@@ -186,6 +186,39 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.nav a button {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.nav a:hover {
+  box-shadow: 0 0 10px 11px rgba(247, 247, 30, 0.5);
+}
+
+.home-button  button {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.home-button button:hover {
+  box-shadow: 0 0 10px 16px rgba(230, 99, 11, 0.5);
+}
+
+.features-h1 h1 {
+  
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.features-h1 h1:hover {
+  box-shadow: 0 0 10px 11px rgba(240, 240, 12, 0.5);
+}
+
 
 .lambda-logo img {
   height: 55px;
@@ -196,6 +229,38 @@ p {
  
 }
 
+
+.extra button{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.extra button:hover {
+  box-shadow: 0 0 10px 19px rgba(245, 37, 37, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .h-helper h3 {
   color: rgba(255, 255, 255, 0.534);
   font-size: medium;
@@ -203,6 +268,32 @@ p {
   align-items: center;
   justify-content: center;
 }
+
+.intro button {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.intro button:hover {
+  box-shadow: 0 0 10px 11px rgba(231, 231, 31, 0.5);
+}
+
+
+  .images img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+  .images img:hover {
+    box-shadow: 0 0 5px 6px rgba(230, 255, 3, 0.5);
+  }
+  
+
+
 
 .navbar {
 
@@ -687,6 +778,18 @@ first page
     padding-left: 20rem;
     
   }
+
+  .intro button {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+  .intro button:hover {
+    box-shadow: 0 0 10px 11px rgba(17, 17, 16, 0.5);
+  }
+  
   .first-one h1 {
     color: rgb(247, 72, 19);
     background-color: rgb(24, 24, 20);
@@ -803,6 +906,16 @@ first page
     padding-left: 16rem;
 
   }
+  .images img {
+    border: 1px solid rgb(241, 20, 20);
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+  .images img:hover {
+    box-shadow: 0 0 5px 10px rgba(74, 235, 10, 0.5);
+  }
   .container h4 {
     color: rgb(13, 45, 66);
     font-size: x-large;
@@ -828,6 +941,8 @@ first page
   justify-content: center;
 
 }
+
+
 
 
 .images h2 {
@@ -1267,8 +1382,32 @@ first page
   
 }
 
+.nav a {
+  
+    border: 1px solid rgb(22, 241, 168);
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+  .nav a:hover {
+    box-shadow: 0 0 5px 6px rgba(24, 10, 224, 0.5);
+  }
+}
+
+.intro img {
+  
+    border: 1px solid #ddd;
+   
+  }
+
+  .intro img:hover {
+    box-shadow: 0 0 10px 10px rgba(231, 19, 203, 0.5);
+  }
 
 
+
+}
 
 
 }
