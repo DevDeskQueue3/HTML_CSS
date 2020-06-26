@@ -602,14 +602,14 @@ second page
 
 
 /*Third Page(log in)/*/
-.login-header p1 {
+/* .login-header p1 {
   display: flex;
   justify-content: center;
-  color: red;
+  color: rgb(0, 255, 0);
   width: 100%;
-  padding-top: 13rem;
+  padding-top: 3rem;
   padding-bottom: 13rem;
-}
+} */
 .bg-img {
   display: flex;
   justify-content: center;
@@ -653,6 +653,7 @@ second page
   color: cyan;
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   font-weight: bolder;
+  width: auto;
 }
 .container button:hover {
   color:blue;
@@ -809,12 +810,14 @@ features page*/
 
 
 .login-header p {
-  color: red;
+  color: rgb(0, 255, 42);
   width: auto;
-  margin-left: 40rem;
+  margin-left: 41.5rem;
+  padding-bottom: 4%;
+  padding-top: 4%;
 }
 .login-header p:hover {
-  color:magenta;
+  color:rgb(255, 0, 0);
 }
 
 
