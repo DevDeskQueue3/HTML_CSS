@@ -1,1 +1,1 @@
-  https://dazzling-euclid-b007ba.netlify.app
+website:  https://dazzling-euclid-b007ba.netlify.app
