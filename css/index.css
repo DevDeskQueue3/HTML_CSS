@@ -229,7 +229,21 @@ p {
  
 } */
 
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: solid 2px rgb(49, 95, 2);
+  font-size: 2rem;
+  color: white;
+  margin-top: 9rem;
+}
 
+footer:hover {
+  box-shadow: 0 0 10px 19px rgba(237, 253, 8, 0.5);
+  color: #0f0d00;
+  background: rgb(221, 224, 5);
+}
 .extra button{
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -241,7 +255,22 @@ p {
   box-shadow: 0 0 10px 19px rgba(221, 19, 5, 0.5);
 }
 
-
+/* .lambda-logo img {
+  display: flex;
+  justify-content: flex-start;
+  width: 20%;
+  align-content: flex-start;
+  padding-right: 36rem;
+  
+}
+.lambda-logo {
+  display: flex;
+  justify-content: flex-start;
+  /* width: 20%; */
+  /* align-content: flex-start;
+  padding-right: 36rem;
+  padding-bottom: 10%;
+}  */ 
 
 
 /* 
@@ -939,24 +968,25 @@ first page
     color: transparent;
   }
 .login-header p {
-  display: inline-block;
-  justify-content: center;
-  color: black;
+  
+  
+  color: rgb(59, 34, 202);
  
   width: auto;
   margin: 5%;
-  padding: 5%;
-  margin-left: 10rem;
-  font-size: 10px;
+  
+  padding-right: 33%;
+  font-size: 16px;
+
  
 
 }
 
 .login-header p:hover {
-  color: blue;
+  color: rgb(38, 0, 255);
   font-size: larger;
   font-weight: bolder;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
   font-stretch: wider;
   font-style: oblique;
   font-variant-caps: titling-caps;
@@ -994,6 +1024,7 @@ first page
   }
   .images h2 {
     font-size: medium;
+    background-color: transparent;
   }
 
   .images img:hover {
@@ -1025,6 +1056,7 @@ first page
   height: 140px;
   display: flex;
   justify-content: center;
+  
 
 }
 
@@ -1036,6 +1068,7 @@ first page
   color: black;
   font-size: 20px;
   padding: 5%;
+  background-color: transparent;
 }
 /* .images h2 {
   color: red;
@@ -1068,6 +1101,16 @@ first page
   
   
 } 
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  border:  rgb(4, 7, 0);
+  font-size: 2rem;
+  color: rgb(19, 17, 17);
+}
 
 
 
@@ -1199,12 +1242,14 @@ first page
   .login-header {
     background-color: cornsilk;
   }
-  .login-header h1 {
+  .login-header p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    padding-left: 16rem;
+    width: auto;
+    /* padding-left: 16rem; */
+    color: rgb(10, 1, 2);
+    padding-right: 1rem;
 
   }
   .container h4 {
@@ -1238,6 +1283,7 @@ first page
   color: black;
   font-size: 20px;
   padding: 5%;
+  background-color: transparent;
 }
 /* .images h2 {
   color: red;
@@ -1437,6 +1483,7 @@ first page
   color: black;
   font-size: 20px;
   padding: 5%;
+  background-color: transparent;
 }
 /* .images h2 {
   color: red;
@@ -1660,6 +1707,7 @@ first page
   color: black;
   font-size: 20px;
   padding: 5%;
+  background-color: transparent;
 }
 /* .images h2 {
   color: red;
@@ -1860,6 +1908,7 @@ first page
   color: black;
   font-size: 20px;
   padding: 5%;
+  background-color: transparent;
 }
 /* .images h2 {
   color: red;
@@ -2058,9 +2107,11 @@ first page
 
 
 .images h2 {
+
   color: black;
   font-size: 20px;
   padding: 5%;
+  background-color: transparent;
  
 }
 /* .images h2 {
